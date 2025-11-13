@@ -17,7 +17,7 @@ export default function Home() {
             width={52}
             height={52}
           />
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-0.5">
             <h1 className="text-base font-[450] tracking-[-0.1px] text-neutral-900 dark:text-neutral-100">
               <a href="/">Danilo Vilhena</a>
             </h1>
@@ -29,7 +29,7 @@ export default function Home() {
         <main className="mt-16">
           <div className="text-base leading-relaxed tracking-[-0.1px] text-neutral-500 dark:text-neutral-400">
             I build software with <span className="highlight">care</span> and{" "}
-            <span className="highlight">intention</span>, with a focus on
+            <span className="highlight">intention</span>, focusing on
             performance, reliability, and the details that elevate product
             quality. I work thoughtfully across the stack to create systems that
             feel solid and predictable.
