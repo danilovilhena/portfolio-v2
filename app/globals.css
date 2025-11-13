@@ -120,3 +120,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+body * {
+  font-family: var(--font-inter);
+}
+
+.highlight {
+  text-decoration: underline dotted #bbb;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}

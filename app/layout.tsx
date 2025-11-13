@@ -25,11 +25,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ThemeProvider
         attribute="class"
-        defaultTheme="system"
+        defaultTheme="light"
         enableSystem
         disableTransitionOnChange
       >
-        <body className={`${inter.variable} antialiased`}>{children}</body>
+        <body
+          className={`${inter.variable} antialiased bg-[#F7F7F4] dark:bg-[#222]`}
+        >
+          {children}
+        </body>
       </ThemeProvider>
     </html>
   );
