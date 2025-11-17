@@ -36,7 +36,7 @@ export function ProjectItem({ image, title, description, projectUrl, date = '202
             </span>
           )}
         </div>
-        <p className="text-xs tracking-[-0.1px] text-neutral-500 dark:text-neutral-400 mt-1">{description}</p>
+        <p className="text-[13px] tracking-[-0.1px] text-neutral-500 dark:text-neutral-400 mt-1">{description}</p>
       </div>
     </Link>
   );
