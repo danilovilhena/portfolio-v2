@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </header>
         <main className="mt-12">
-          <div className="text-base leading-relaxed tracking-[-0.1px] text-neutral-500 dark:text-neutral-400">
+          <div className="text-[15px] leading-relaxed tracking-[-0.1px] text-neutral-500 dark:text-neutral-400">
             I build software with <span className="highlight">care</span> and <span className="highlight">intention</span>, focusing on performance,
             reliability, and the details that elevate product quality. I work thoughtfully across the stack to create systems that feel solid and predictable.
             <br />

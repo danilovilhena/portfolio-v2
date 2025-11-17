@@ -89,9 +89,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Analytics />
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-        <body className={`${inter.variable} antialiased bg-[#F7F7F4] dark:bg-[#222]`}>{children}</body>
+        <body className={`${inter.variable} antialiased bg-[#F7F7F4] dark:bg-[#222]`}>
+          {children}
+          <Analytics />
+        </body>
       </ThemeProvider>
     </html>
   );
