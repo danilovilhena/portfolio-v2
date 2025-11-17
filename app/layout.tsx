@@ -10,8 +10,63 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Danilo Vilhena',
+  title: {
+    default: 'Danilo Vilhena',
+    template: '%s | Danilo Vilhena',
+  },
   description: 'Full-stack developer with 5+ years of experience, focused on performance, user experience and rigorous testing.',
+  keywords: [
+    'Danilo Vilhena',
+    'Full Stack Developer',
+    'Software Engineer',
+    'Web Developer',
+    'React Developer',
+    'Next.js Developer',
+    'Portfolio',
+    'Frontend Developer',
+    'Backend Developer',
+  ],
+  authors: [{ name: 'Danilo Vilhena' }],
+  creator: 'Danilo Vilhena',
+  publisher: 'Danilo Vilhena',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://danilovilhena.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: '/',
+    siteName: 'Danilo Vilhena',
+    title: 'Danilo Vilhena - Full Stack Engineer',
+    description: 'Full-stack developer with 5+ years of experience, focused on performance, user experience and rigorous testing.',
+    images: [
+      {
+        url: '/icon.png',
+        width: 1200,
+        height: 1200,
+        alt: 'Danilo Vilhena',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Danilo Vilhena - Full Stack Engineer',
+    description: 'Full-stack developer with 5+ years of experience, focused on performance, user experience and rigorous testing.',
+    images: ['/icon.png'],
+    creator: '@danilovilhena_',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   manifest: '/site.webmanifest',
   icons: {
     icon: [
