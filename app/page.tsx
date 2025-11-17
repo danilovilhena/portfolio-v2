@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className="text-base font-[450] tracking-[-0.1px] text-neutral-900 dark:text-neutral-100">
               <a href="/">Danilo Vilhena</a>
             </h1>
-            <p className="text-base tracking-[-0.1px] text-neutral-500 dark:text-neutral-400">Full Stack Engineer</p>
+            <p className="text-[15px] tracking-[-0.1px] text-neutral-500 dark:text-neutral-400">Full Stack Engineer</p>
           </div>
         </header>
         <main className="mt-12">
