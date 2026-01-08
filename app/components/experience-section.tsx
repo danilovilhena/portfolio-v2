@@ -28,16 +28,16 @@ export function ExperienceSection() {
       <div className="mt-6 flex flex-col">
         <ExperienceItem
           image="/companies/mindcloud.svg"
-          title="Full Stack Engineer, MindCloud"
+          title="Principal Engineer, MindCloud"
           duration="2024 - Present"
           companyUrl="https://mindcloud.co/"
           invertInLight={true}
           isExpanded={isExpanded}
           description={
             <>
-              At MindCloud, we have a <span className="highlight">fast-growing environment</span> where the initial focus was white-glove solutions built
-              on top of a strong platform. Now, our focus is strengthening the SaaS product itself, making it faster, clearer to use, and more capable.
-              The platform is designed with AI in mind, the product quality is super high, and I am focused on helping it become the{' '}
+              At MindCloud, we have a <span className="highlight">fast-growing environment</span> where the initial focus was white-glove solutions built on top
+              of a strong platform. Now, our focus is strengthening the SaaS product itself, making it faster, clearer to use, and more capable. The platform is
+              designed with AI in mind, the product quality is super high, and I am focused on helping it become the{' '}
               <span className="highlight">leading product in this automations market</span>.
             </>
           }
@@ -52,10 +52,10 @@ export function ExperienceSection() {
           isExpanded={isExpanded}
           description={
             <>
-              I worked in a small engineering team, improving stability and cleaning up <span className="highlight">long-standing issues</span>. I focused
-              on fixing core bugs and tightening the user experience. Details really matter. Most of my time was spent on a{' '}
-              <span className="highlight">full rewrite and redesign</span> of the platform, making the frontend more cohesive and organized, and the
-              backend faster and more secure.
+              I worked in a small engineering team, improving stability and cleaning up <span className="highlight">long-standing issues</span>. I focused on
+              fixing core bugs and tightening the user experience. Details really matter. Most of my time was spent on a{' '}
+              <span className="highlight">full rewrite and redesign</span> of the platform, making the frontend more cohesive and organized, and the backend
+              faster and more secure.
             </>
           }
         />
@@ -72,8 +72,8 @@ export function ExperienceSection() {
           description={
             <>
               I began as an intern and grew into a full-time developer, working on products designed to make the web{' '}
-              <span className="highlight">more accessible to everyone</span>. Most of my work focused on the WAL browser extension, where we added
-              customization tools, visual adjustments, and early AI-powered descriptions to make the web more usable for people with{' '}
+              <span className="highlight">more accessible to everyone</span>. Most of my work focused on the WAL browser extension, where we added customization
+              tools, visual adjustments, and early AI-powered descriptions to make the web more usable for people with{' '}
               <span className="highlight">visual, hearing, or motor impairments</span>. It was a mission-driven environment. It shaped how I think.
             </>
           }
@@ -82,4 +82,3 @@ export function ExperienceSection() {
     </div>
   );
 }
-
